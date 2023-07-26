@@ -1,0 +1,117 @@
+.join{
+    .container{
+        padding: 5rem;
+        display: flex;
+        gap: 5rem;
+        flex-wrap: wrap;
+
+        .left{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 2rem;
+
+            .card{
+                background-color: #111;
+                padding: 5rem;
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 4rem;
+
+                h3{
+                    font-size: 2.9rem;
+                    font-weight: 600;
+                    line-height: 3.4rem;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+
+                p{
+                    font-size: 2.3rem;
+                    font-weight: 400;
+                    line-height: 2.7rem;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #fff;
+
+
+                    span{
+                        color: #0f79af;
+                    }
+
+                }
+            }
+
+            .arrow{
+            
+                width: 15rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+
+                .image-container {
+
+                    width: 100%;
+                    > div {
+                      position: unset !important;
+                    }
+                  
+                    .image {
+                      object-fit: contain;
+                      width: 100% !important;
+                      position: relative !important;
+                      height: unset !important;
+                    }
+                  }
+            }
+        }
+
+        .right{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 4rem;
+            align-items: flex-start;
+
+            h2{
+                font-size: 4.7rem;
+                font-weight: 700;
+                line-height: 5.5rem;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+
+            p{
+                font-size: 2.5rem;
+                font-weight: 400;
+                line-height: 2.9rem;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #fff;
+
+             
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+   .join{
+    .container{
+        flex-direction: column;
+    }
+   }
+}
+
+@media screen and (max-width: 480px) {
+    .join{
+        .container{
+            flex-direction: column;
+            padding: 4rem;
+        }
+    }
+}

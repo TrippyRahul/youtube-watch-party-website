@@ -1,0 +1,117 @@
+.work{
+    .container{
+        padding: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        h2{
+            font-size: 4.7rem;
+            font-weight: 700;
+            line-height: 5.5rem;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        h3{
+          font-size: 2.5rem;
+          text-align: left;
+        }
+
+        p{
+          font-size: 2.5rem;
+
+          span{
+            color: #FF3939;
+          }
+        }
+
+        .content{
+          padding: 4rem 0rem;
+         
+
+          .timeline{
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 5rem;
+
+            .item{
+              flex: 1;
+              height: 30rem;
+              
+              
+              .first{
+                height: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                flex-direction: column;
+                gap: 2rem;
+                position: relative;
+
+                p{
+                  font-size: 2.5rem;
+                  font-weight: 400;
+                  line-height: 2.9rem;
+                  letter-spacing: 0em;
+                  text-align: left;
+                }
+
+                .image-container {
+
+                  width: 10rem;
+                  > div {
+                    position: unset !important;
+                  }
+                
+                  .image {
+                    object-fit: contain;
+                    width: 100% !important;
+                    position: relative !important;
+                    height: unset !important;
+                  }
+                }
+              }
+
+              .second{
+                position: relative;
+                border-top: .1rem solid gray;
+                height: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                flex-direction: column;
+                gap: 2rem;
+                
+                .image-container {
+
+                  width: 10rem;
+                  > div {
+                    position: unset !important;
+                  }
+                
+                  .image {
+                    object-fit: contain;
+                    width: 100% !important;
+                    position: relative !important;
+                    height: unset !important;
+                  }
+                }
+                
+                p{
+                  font-size: 2.5rem;
+                  font-weight: 400;
+                  line-height: 2.9rem;
+                  letter-spacing: 0em;
+                  text-align: left;
+                }
+
+              }
+            }
+          }
+            
+        }
+    }
+}
+
+
