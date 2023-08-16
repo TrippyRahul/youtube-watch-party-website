@@ -60,9 +60,10 @@
                     // backdrop-filter: blur( 2.4rem );
                     // -webkit-backdrop-filter: blur( 2.4rem );
                     border-radius: 1rem;
+                    color: #111;
 
                     &::placeholder{
-                        color: rgba(255, 255, 255, 0.534);
+                        color: gray;
                     }
                 }
 
