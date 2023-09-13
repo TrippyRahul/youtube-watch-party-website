@@ -14,7 +14,9 @@ const Work = () => {
           without any interruptions.
         </p>
 
-        <p>How to install the <span> youtube ad blocker Firefox </span> feature?</p>
+        <p>
+          How to install the <span> youtube ad blocker Firefox </span> feature?
+        </p>
         <p>These are the simple steps to download the browser extension : </p>
 
         <div className={styles.content}>
@@ -26,7 +28,7 @@ const Work = () => {
                   <Image
                     fill={true}
                     className={styles.image}
-                    src="./semi-circle1.svg"
+                    src="/semi-circle1.svg"
                     alt="semi-circle"
                   />
                 </div>
@@ -43,7 +45,7 @@ const Work = () => {
                   <Image
                     fill={true}
                     className={styles.image}
-                    src="./semi-circle2.svg"
+                    src="/semi-circle2.svg"
                     alt="semi-circle"
                   />
                 </div>
@@ -57,7 +59,7 @@ const Work = () => {
                   <Image
                     fill={true}
                     className={styles.image}
-                    src="./semi-circle1.svg"
+                    src="/semi-circle1.svg"
                     alt="semi-circle"
                   />
                 </div>
@@ -74,7 +76,7 @@ const Work = () => {
                   <Image
                     fill={true}
                     className={styles.image}
-                    src="./semi-circle2.svg"
+                    src="/semi-circle2.svg"
                     alt="semi-circle"
                   />
                 </div>

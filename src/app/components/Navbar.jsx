@@ -8,16 +8,27 @@ import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isYoutubeWatchParty, setYoutubeWatchParty] = useState(false);
+
+  const checkYoutubeWatchParty = () => {
+    if (
+      typeof window !== "undefined" &&
+      window.location.href.includes("youtubewatchparty")
+    ) {
+      setYoutubeWatchParty(true);
+    }
+  };
 
   useEffect(() => {
-    console.log(isOpen);
-  }, [isOpen]);
+    checkYoutubeWatchParty();
+  }, []);
+
   return (
     <>
       <nav className={styles.navbar}>
         <ul className={styles.links}>
           <li className={styles.logo}>
-            <Link href="/">
+            <Link href={isYoutubeWatchParty ? "/youtubewatchparty" : "/"}>
               <div className={styles["image-container"]}>
                 <Image
                   src="/main-logo.svg"
@@ -29,7 +40,9 @@ const Navbar = () => {
             </Link>
           </li>
           <li className={styles.link}>
-            <Link href="/">Youtube Watch Party</Link>
+            <Link href={"/youtubewatchparty"}>
+              {isYoutubeWatchParty ? "Youtube Party " : "Youtube Watch Party"}
+            </Link>
           </li>
           <li className={styles.link}>
             <Link href="#features">Features</Link>
@@ -38,13 +51,35 @@ const Navbar = () => {
             <Link href="#how-it-works">How It Works</Link>
           </li>
           <li className={styles.link}>
-            <Link href="/mp-4-downloader">mp4 downloader</Link>
+            <Link
+              href={
+                isYoutubeWatchParty
+                  ? "/youtubewatchparty/mp-4-downloader"
+                  : "/mp-4-downloader"
+              }
+            >
+              mp4 downloader
+            </Link>
           </li>
           <li className={styles.link}>
-            <Link href="/mp-3-converter">mp3 converter</Link>
+            <Link
+              href={
+                isYoutubeWatchParty
+                  ? "/youtubewatchparty/mp-3-converter"
+                  : "/mp-3-converter"
+              }
+            >
+              mp3 converter
+            </Link>
           </li>
           <li className={styles.link}>
-            <Link href="/support">Support</Link>
+            <Link
+              href={
+                isYoutubeWatchParty ? "/youtubewatchparty/support" : "/support"
+              }
+            >
+              Support
+            </Link>
           </li>
         </ul>
         <a href="#" className={styles.hideBtn}>
@@ -63,7 +98,7 @@ const Navbar = () => {
 
       {isOpen && (
         <div className={styles.mobile}>
-          <Link href="/">
+          <Link href={isYoutubeWatchParty ? "/youtubewatchparty" : "/"}>
             <div className={styles["image-container"]}>
               <Image
                 src="/logo.svg"
@@ -75,7 +110,10 @@ const Navbar = () => {
           </Link>
           <ul className={styles.links}>
             <li className={styles.link}>
-              <Link href="/">Hotstart watch party</Link>
+              <Link href={isYoutubeWatchParty ? "/youtubewatchparty" : "/"}>
+                {" "}
+                {isYoutubeWatchParty ? "Youtube Party " : "Youtube Watch Party"}
+              </Link>
             </li>
             <li className={styles.link}>
               <Link href="#features">Features</Link>
@@ -84,13 +122,37 @@ const Navbar = () => {
               <Link href="#how-it-works">How It Works</Link>
             </li>
             <li className={styles.link}>
-              <Link href="/mp-4-downloader">mp4 downloader</Link>
+              <Link
+                href={
+                  isYoutubeWatchParty
+                    ? "/youtubewatchparty/mp-4-downloader"
+                    : "/mp-4-downloader"
+                }
+              >
+                mp4 downloader
+              </Link>
             </li>
             <li className={styles.link}>
-              <Link href="/mp-3-converter">mp3 converter</Link>
+              <Link
+                href={
+                  isYoutubeWatchParty
+                    ? "/youtubewatchparty/mp-3-converter"
+                    : "/mp-3-converter"
+                }
+              >
+                mp3 converter
+              </Link>
             </li>
             <li className={styles.link}>
-              <Link href="/support">Support</Link>
+              <Link
+                href={
+                  isYoutubeWatchParty
+                    ? "/youtubewatchparty/support"
+                    : "/support"
+                }
+              >
+                Support
+              </Link>
             </li>
           </ul>
           <Button />
