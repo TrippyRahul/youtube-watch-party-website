@@ -40,7 +40,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className={styles.link}>
-            <Link href={"/youtubewatchparty"}>
+            <Link href={isYoutubeWatchParty ? "/" : "/youtubewatchparty"}>
               {isYoutubeWatchParty ? "Youtube Party " : "Youtube Watch Party"}
             </Link>
           </li>
