@@ -17,7 +17,7 @@ const page = () => {
       <Navbar />
       <div className={styles[`mp4-downloader`]}>
         <div className={styles.container}>
-          <h2>YouTube to MP4 Downloader: Convert YouTube to MP4 instantly</h2>
+          <h1>YouTube to MP4 Downloader: Convert YouTube to MP4 instantly</h1>
           <div className={styles.content}>
             <div className={styles.para}>
               <h3>Introduction</h3>

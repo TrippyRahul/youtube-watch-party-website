@@ -18,7 +18,7 @@ const page = () => {
       <Navbar />
       <div className={styles[`mp3-converter`]}>
         <div className={styles.container}>
-          <h2>Youtube to MP3 Converter:Your Video to Audio Conversion tool</h2>
+          <h1>Youtube to MP3 Converter:Your Video to Audio Conversion tool</h1>
           <div className={styles.content}>
             <div className={styles.para}>
               <h3>Website Content</h3>
