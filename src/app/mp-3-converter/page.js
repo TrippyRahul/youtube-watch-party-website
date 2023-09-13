@@ -23,7 +23,7 @@ const page = () => {
             <div className={styles.para}>
               <h3>Website Content</h3>
               <p>
-                YouTube has become a part of every internet user's life. You can
+                YouTube has become a part of every internet user&apos;s life. You can
                 watch videos, movies, series and even listen to the latest songs
                 and dance routines in it. Spotify being the lead platform for
                 music lovers, people still watch songs, music albums, mv and
@@ -62,14 +62,14 @@ const page = () => {
             <div className={styles.para}>
               <h3>How to download a video</h3>
               <p>
-                It's very easy for anyone to download a video using online
+                It&apos;s very easy for anyone to download a video using online
                 tools.
               </p>
               <ul>
                 <li>Open YouTube and search for the required video content.</li>
                 <li>
                   Click on the share button and select the copy link or copy the
-                  URL from the browser's address bar.
+                  URL from the browser&apos;s address bar.
                 </li>
                 <li>
                   Find a YouTube downloader online like y2mate and paste the
@@ -96,7 +96,7 @@ const page = () => {
                   Go to YouTube and search for the video you want to download.
                 </li>
                 <li>
-                  Play the video and copy the URL from the browser's address
+                  Play the video and copy the URL from the browser&apos;s address
                   bar. You can also copy the link from the share option below
                   the video.
                 </li>
@@ -139,7 +139,7 @@ const page = () => {
               <p>
                 The efficient algorithm of the platform ensures a fast
                 conversion process. The desired mp3 formats are provided
-                according to the user's conversion format promptly.
+                according to the user&apos;s conversion format promptly.
               </p>
             </div>
             <div className={styles.para}>
