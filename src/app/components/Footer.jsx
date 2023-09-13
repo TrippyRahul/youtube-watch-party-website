@@ -30,8 +30,12 @@ const Footer = () => {
         <div className={styles.content}>
           <div className={styles["popular-searches"]}>
             <p>
-              <span>Popular searches:</span> watch2gether, youtube sharing,
-              youtube premium family, youtube ad blocker android
+              <span>Popular searches:</span>{" "}
+              <a href="https://www.watchottparty.com/" target="_blank">
+                watchottparty
+              </a>
+              , watch2gether, youtube sharing, youtube premium family, youtube
+              ad blocker android
             </p>
           </div>
           <ul>
