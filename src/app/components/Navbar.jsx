@@ -38,6 +38,12 @@ const Navbar = () => {
             <Link href="#how-it-works">How It Works</Link>
           </li>
           <li className={styles.link}>
+            <Link href="/mp-4-downloader">mp4 downloader</Link>
+          </li>
+          <li className={styles.link}>
+            <Link href="/mp-3-converter">mp3 converter</Link>
+          </li>
+          <li className={styles.link}>
             <Link href="/support">Support</Link>
           </li>
         </ul>
@@ -76,6 +82,12 @@ const Navbar = () => {
             </li>
             <li className={styles.link}>
               <Link href="#how-it-works">How It Works</Link>
+            </li>
+            <li className={styles.link}>
+              <Link href="/mp-4-downloader">mp4 downloader</Link>
+            </li>
+            <li className={styles.link}>
+              <Link href="/mp-3-converter">mp3 converter</Link>
             </li>
             <li className={styles.link}>
               <Link href="/support">Support</Link>

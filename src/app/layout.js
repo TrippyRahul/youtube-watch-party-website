@@ -49,7 +49,6 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <Schema />
-        <Header />
         {children}
         <Footer />
       </body>
