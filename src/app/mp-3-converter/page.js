@@ -2,19 +2,23 @@ import React from "react";
 import styles from "@/app/styles/mp3Converter.module.scss";
 import Navbar from "../components/Navbar";
 
+export const metadata = {
+  title: "  Youtube to MP3 Converter:Your Video to Audio Conversion tool",
+  description:
+    "Downloading YouTube videos for songs has been made easy. Find the best Youtube to MP3 Converter for easily converting your MP4 into high-quality MP3",
+  openGraph: {
+    title: "  Youtube to MP3 Converter:Your Video to Audio Conversion tool",
+    description:
+      "Downloading YouTube videos for songs has been made easy. Find the best Youtube to MP3 Converter for easily converting your MP4 into high-quality MP3",
+    url: "https://www.youtubeparty.com/mp-3-converter",
+    type: "website",
+    image: "https://www.youtubeparty.com/main-logo.svg",
+  },
+};
+
 const page = () => {
   return (
     <>
-      <head>
-        <title>
-          Youtube to MP3 Converter:Your Video to Audio Conversion tool
-        </title>
-        <meta
-          name="description"
-          content="Downloading YouTube videos for songs has been made easy. Find the best Youtube to MP3
-          Converter for easily converting your MP4 videos into high-quality MP3."
-        />
-      </head>
       <Navbar />
       <div className={styles[`mp3-converter`]}>
         <div className={styles.container}>
@@ -23,15 +27,16 @@ const page = () => {
             <div className={styles.para}>
               <h3>Website Content</h3>
               <p>
-                YouTube has become a part of every internet user&apos;s life. You can
-                watch videos, movies, series and even listen to the latest songs
-                and dance routines in it. Spotify being the lead platform for
-                music lovers, people still watch songs, music albums, mv and
-                dance videos on this old-time platform. For listening to music
-                offline, you need a premium Spotify account to download songs
-                for which you need to pay to subscribe. But with a YouTube
-                downloader, you can getmp3 download free of cost. Now you can
-                download YouTube videos to MP3 using a free YT to MP3 converter.
+                YouTube has become a part of every internet user&apos;s life.
+                You can watch videos, movies, series and even listen to the
+                latest songs and dance routines in it. Spotify being the lead
+                platform for music lovers, people still watch songs, music
+                albums, mv and dance videos on this old-time platform. For
+                listening to music offline, you need a premium Spotify account
+                to download songs for which you need to pay to subscribe. But
+                with a YouTube downloader, you can getmp3 download free of cost.
+                Now you can download YouTube videos to MP3 using a free YT to
+                MP3 converter.
               </p>
             </div>
             <div className={styles.para}>
@@ -96,9 +101,9 @@ const page = () => {
                   Go to YouTube and search for the video you want to download.
                 </li>
                 <li>
-                  Play the video and copy the URL from the browser&apos;s address
-                  bar. You can also copy the link from the share option below
-                  the video.
+                  Play the video and copy the URL from the browser&apos;s
+                  address bar. You can also copy the link from the share option
+                  below the video.
                 </li>
                 <li>
                   Search for an online YouTube audio converter to convert
