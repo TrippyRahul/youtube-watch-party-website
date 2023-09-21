@@ -32,8 +32,8 @@ const Hero = () => {
             <div className={styles["inner-container"]}>
               <div className={styles.headings}>
                 <h1>
-                  Immerse yourself in endless movie nights with teleparty
-                  youtube
+                  Immerse yourself in endless movie nights with Youtube Watch
+                  Party
                 </h1>
               </div>
               <div className={styles.text}>

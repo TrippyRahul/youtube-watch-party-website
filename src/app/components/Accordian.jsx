@@ -13,7 +13,7 @@ const questions = [
   },
   {
     id: 2,
-    ques: "What is a watch party on Youtube?",
+    ques: "What is a watch party on Youtube Party?",
     ans: "With this extension, you and your friends can view videos together at the same time. While watching, you can chat and make real-time audio and video calls. It's like having a virtual movie night or sharing fun content in a group!",
   },
   {

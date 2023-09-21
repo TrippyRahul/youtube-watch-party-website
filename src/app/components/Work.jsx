@@ -8,10 +8,9 @@ const Work = () => {
       <div className={styles.container}>
         <h2 id="work">How to watch youtube without ads?</h2>
         <p>
-          It’s a very simple and easy process. You need to download the{" "}
-          <span>youtube adblocker extension </span> and add it to Chrome. With
-          this extension, you can enjoy <span> youtube ad free </span> content
-          without any interruptions.
+          It’s a very simple and easy process. You need to download the Youtube
+          watch party and add it to Chrome. With this extension, you can enjoy
+          youtube ad free content without any interruptions.
         </p>
 
         <p>

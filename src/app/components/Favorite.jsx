@@ -17,11 +17,12 @@ const Favorite = () => {
                   If you enjoy viewing movies or series with your friends, use
                   this extension and just log in and invite your buddies to
                   join. You all need to log in together to start streaming the
-                  movie at the same time and share with them. Once you&apos;re all
-                  in, you can have audio and video calls while streaming the
+                  movie at the same time and share with them. Once you&apos;re
+                  all in, you can have audio and video calls while streaming the
                   movie together. The video quality is high, and the buffering
-                  is fast, all in your web browser. It&apos;s a fantastic way to have
-                  fun and make movie nights with friends even more exciting.
+                  is fast, all in your web browser. It&apos;s a fantastic way to
+                  have fun and make movie nights with friends even more
+                  exciting.
                 </p>
                 <p>
                   The best part is with the help of adblocker, you can block all
@@ -70,11 +71,11 @@ const Favorite = () => {
             </div>
             <div className={styles.desc}>
               <p>
-                Simply click on the creative user icon, and it will unlock
-                amazing features like chat, audio calls, and video calls. With
-                these tools, you can create your perfect movie night with
-                friends and family, picking your favorite shows and movies from
-                the best online streaming platforms.
+                Simply just click the user icon, and it will unlock some of the
+                best features like chat, audio calls, and video calls. With
+                Youtube watch party, you can view movie together with friends
+                and family and you can also pick your favorite shows and movies
+                from the best online streaming platforms.
               </p>
               <p>
                 To view unlimited series without any disturbance, use{" "}

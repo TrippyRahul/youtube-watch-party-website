@@ -22,9 +22,8 @@ const About = () => {
                 are physically apart.
               </p>
               <p>
-                With this extension, you can{" "}
-                <span> watch movies with friends online </span>
-                and can discuss scenes, and share reactions at the same time.
+                With Youtube party, you can watch movies with friends online and
+                can discuss scenes, and share reactions at the same time.
               </p>
               <p>
                 To experience these incredible features, you need to download
