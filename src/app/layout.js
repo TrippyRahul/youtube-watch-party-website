@@ -23,6 +23,10 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" type="image/x-icon" href="/logo.svg" />
         <link rel="canonical" href="https://www.youtubeparty.com/" />
+        <meta
+          name="google-site-verification"
+          content="u5uF32XvpbzE0bD8SJwAuf5P12rPPRnHxEEpl7_4jdk"
+        />
       </head>
       <body>
         <Schema />
