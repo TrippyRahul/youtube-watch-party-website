@@ -13,7 +13,7 @@ const Footer = () => {
         <div className={styles.logo}>
           <div className={styles["image-container"]}>
             <Image
-              src="/logo.svg"
+              src="/main-logo.svg"
               alt="ott-party"
               fill={true}
               className={styles["image"]}

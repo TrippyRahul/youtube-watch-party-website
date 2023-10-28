@@ -1,6 +1,5 @@
 .footer{
     // height: 100vh;
-    background-color: #111;
     // padding: 10rem 4rem;
     position: relative;
     overflow: hidden;
@@ -39,7 +38,7 @@
                 text-transform: uppercase;
                 font-size: 4rem;
                 text-align: center;
-                color: #FF3939;
+                color: #D33434;
 
             }
 
@@ -89,7 +88,7 @@
                     color: gray;
 
                     span{
-                        color: #FF3939;
+                        color: #D33434;
                     }
                 }
             }
@@ -111,7 +110,7 @@
                 li{
                     transition: all .2s linear;
                     &:hover{
-                        color: #FF3939;
+                        color: #D33434;
                     }
                 }
             }

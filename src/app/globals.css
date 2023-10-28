@@ -22,7 +22,20 @@ html {
 }
 
 body {
- background-color: #111;
+ background-color: #000;
+}
+
+.header-bg{
+  background: url('/header-bg.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.header-bg-container{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
 }
 
 .image-container {

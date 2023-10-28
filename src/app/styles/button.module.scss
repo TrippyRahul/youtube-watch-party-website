@@ -5,18 +5,19 @@
     border-radius: .8rem;
     color:#fff;
     cursor: pointer;
-    background:#FF3939;
+    background:#D33434;
 
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
     transition: all .2s ease-in-out;
+    
 
     &:hover{
         transform: scale(1.1);
         background: white;
-        color: #FF3939;
+        color: #D33434;
     }
 }
 

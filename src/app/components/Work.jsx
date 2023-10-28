@@ -7,16 +7,18 @@ const Work = () => {
     <div className={styles.work} id="how-it-works">
       <div className={styles.container}>
         <h2 id="work">How to watch youtube without ads?</h2>
-        <p>
+        <p className={styles.stepPara}>
           It’s a very simple and easy process. You need to download the Youtube
           watch party and add it to Chrome. With this extension, you can enjoy
           youtube ad free content without any interruptions.
         </p>
 
-        <p>
+        <p className={styles.stepPara}>
           How to install the <span> youtube ad blocker Firefox </span> feature?
         </p>
-        <p>These are the simple steps to download the browser extension : </p>
+        <p className={styles.stepPara}>
+          These are the simple steps to download the browser extension :{" "}
+        </p>
 
         <div className={styles.content}>
           <div className={styles.timeline}>
@@ -85,7 +87,7 @@ const Work = () => {
           </div>
         </div>
 
-        <p>
+        <p className={styles.stepPara}>
           After completing these steps, it will automatically start running on
           your browser.
         </p>

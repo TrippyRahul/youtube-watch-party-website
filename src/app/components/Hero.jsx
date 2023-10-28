@@ -1,32 +1,11 @@
-"use client";
-
-import React, { useEffect, useState } from "react";
+import React from "react";
 import styles from "../styles/Hero.module.scss";
 import Button from "./Button";
 
 const Hero = () => {
-  const [bgClass, setBgClass] = useState("");
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth <= 768) {
-        setBgClass(styles["hero-mobile"]);
-      } else {
-        setBgClass(styles["hero-large"]);
-      }
-    };
-
-    handleResize();
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
   return (
     <>
-      <div className={`${styles.hero} ${bgClass}`}>
+      <div className={`${styles.hero} `}>
         <div className={styles.container}>
           <div className={styles.content}>
             <div className={styles["inner-container"]}>
@@ -44,22 +23,18 @@ const Hero = () => {
                   synchronize videos and chat and you can even make audio or
                   video calls while seeing content.
                 </p>
+                <p>
+                  It’s just you need to simply install the extension on your
+                  browser, start a movie or show on it, and invite your friends
+                  to join. Enjoy laughter, excitement, and discussions as you
+                  all see your favorite films simultaneously.
+                </p>
               </div>
               <div className={styles.btn}>
                 <Button />
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className={styles["virtual-party"]}>
-        <div className={styles.container}>
-          <p>
-            It’s just you need to simply install the extension on your browser,
-            start a movie or show on it, and invite your friends to join. Enjoy
-            laughter, excitement, and discussions as you all see your favorite
-            films simultaneously.
-          </p>
         </div>
       </div>
     </>

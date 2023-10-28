@@ -16,6 +16,7 @@
             line-height: 5.9rem;
             letter-spacing: 0em;
             text-align: left;
+            color: #D33434;
 
 
         }
@@ -30,7 +31,7 @@
             li{
                 display: flex;
                 flex-direction: column;
-                border-bottom: .1rem solid rgba(128, 128, 128, 0.508);
+                border-bottom: .1rem solid #D334345b;
                 cursor: pointer;
 
                 .question{

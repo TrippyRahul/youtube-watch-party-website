@@ -5,6 +5,7 @@ import Join from "./components/Join";
 import About from "./components/About";
 import Accordian from "./components/Accordian";
 import Header from "./components/Header";
+import JoinNow from "./components/JoinNow";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Work />
       <About />
       <Accordian />
+      <JoinNow />
     </>
   );
 }

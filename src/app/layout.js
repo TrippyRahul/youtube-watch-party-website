@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/x-icon" href="/logo.svg" />
+        <link rel="icon" type="image/x-icon" href="/main-logo.svg" />
         <link rel="canonical" href="https://www.youtubeparty.com/" />
         <meta
           name="google-site-verification"

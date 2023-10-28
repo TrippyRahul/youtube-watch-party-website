@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/about.module.scss";
 import Image from "next/image";
+import Button from "./Button";
 
 const About = () => {
   return (
@@ -30,6 +31,7 @@ const About = () => {
                 the extension.
               </p>
             </div>
+            <Button />
           </div>
           <div className={styles.right}>
             <div className={styles["image-container"]}>
