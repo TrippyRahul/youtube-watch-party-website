@@ -7,7 +7,7 @@ const Favorite = () => {
     <div className={styles.favorite}>
       <div className={styles.container}>
         <div className={styles.top}>
-          <div className={styles.right}>
+          <div className={styles.left}>
             <div className={styles["image-container"]}>
               <Image
                 src="/favorite.svg"
@@ -17,7 +17,7 @@ const Favorite = () => {
               />
             </div>
           </div>
-          <div className={styles.left}>
+          <div className={styles.right}>
             <div className={styles["left-top"]}>
               <div className={styles.headings}>
                 <h2>Time sync</h2>
@@ -45,7 +45,7 @@ const Favorite = () => {
         </div>
 
         <div className={styles.bottom}>
-          <div className={styles["bottom-right"]}>
+          <div className={styles["bottom-left"]}>
             <div className={styles.headings}>
               <h2>Personalize your own extension</h2>
             </div>
@@ -68,7 +68,7 @@ const Favorite = () => {
               </p>
             </div>
           </div>
-          <div className={styles["bottom-left"]}>
+          <div className={styles["bottom-right"]}>
             <div className={styles["image-container"]}>
               <Image
                 src="/customize.svg"

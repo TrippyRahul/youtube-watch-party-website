@@ -2,6 +2,7 @@ import Schema from "./Schema";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata = {
   title: "Have a blast with the Youtube watch party",
@@ -26,6 +27,18 @@ export default function RootLayout({ children }) {
         <meta
           name="google-site-verification"
           content="u5uF32XvpbzE0bD8SJwAuf5P12rPPRnHxEEpl7_4jdk"
+        />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-1PP7YT2LF5" />
+        <Script
+          id="gtm-script"
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-1PP7YT2LF5');
+          `,
+          }}
         />
       </head>
       <body>
